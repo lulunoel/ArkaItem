@@ -1,0 +1,152 @@
+##{owner} propriétaire de l'outil
+##{date} date de l'obtention
+##"Blocs minés: 0" nombre de blocks minés
+##"Mobs tués: 0" nombre de mobs tués
+##"Blocs parcourus: 0" nombre de blocs parcourus
+##"Bûche minés: 0" nombre de bûche minés
+##"Joueurs tués: 0" nombre de joueurs tués
+
+Items:
+  sword:
+    name: "&6Epic Sword"
+    material: "DIAMOND_SWORD"
+    lore:
+      - "&7Items Custom de {owner}."
+      - "&7Une épée Epic."
+      - "&7Obtenue le {date}."
+      - "&7Blocs minés: 0"
+      - "&7Mobs tués: 0"
+      - "&7Blocs parcourus: 0"
+      - "&7Bûche minés: 0"
+      - "&7Joueurs tués: 0"
+    enchantments:
+      DAMAGE_ALL: 5
+    unbreakable: true
+    nbt:
+      customname: "sword"
+      drophead: true
+      dropable: false
+      saveondeath: true
+      effects:
+        - effect: "SPEED"
+          level: 1
+        - effect: "INCREASE_DAMAGE"
+          level: 2
+    extraAttributes:
+      id: "unique_sword_id"
+  casque:
+    name: "&6Epic Casque"
+    material: "DIAMOND_HELMET"
+    lore:
+      - "&7Items Custom de {owner}."
+      - "&7Un Casque Epic."
+      - "&7Obtenue le {date}."
+    enchantments:
+      DAMAGE_ALL: 5
+    unbreakable: true
+    nbt:
+      customname: "casque"
+      drophead: true
+      dropable: false
+      saveondeath: true
+      fullset: "farm"
+      effects:
+        - effect: "SPEED"
+          level: 1
+        - effect: "INCREASE_DAMAGE"
+          level: 2
+    extraAttributes:
+      id: "unique_helmet_id"
+    effetfullset:
+      - effect: "SPEED"
+        level: 10
+      - effect: "INCREASE_DAMAGE"
+        level: 11
+
+  plastron:
+    name: "&6Epic Plastron"
+    material: "DIAMOND_CHESTPLATE"
+    lore:
+      - "&7Items Custom de {owner}."
+      - "&7Un Plastron Epic."
+      - "&7Obtenue le {date}."
+    enchantments:
+      DAMAGE_ALL: 5
+    unbreakable: true
+    nbt:
+      customname: "plastron"
+      drophead: true
+      dropable: false
+      saveondeath: true
+      fullset: "farm"
+      effects:
+        - effect: "SPEED"
+          level: 1
+        - effect: "INCREASE_DAMAGE"
+          level: 2
+    extraAttributes:
+      id: "unique_chestplate_id"
+    effetfullset:
+      - effect: "SPEED"
+        level: 10
+      - effect: "INCREASE_DAMAGE"
+        level: 11
+
+  jambières:
+    name: "&6Epic Jambières"
+    material: "DIAMOND_LEGGINGS"
+    lore:
+      - "&7Items Custom de {owner}."
+      - "&7Des Jambières Epic."
+      - "&7Obtenue le {date}."
+    enchantments:
+      DAMAGE_ALL: 5
+    unbreakable: true
+    nbt:
+      customname: "jambières"
+      drophead: true
+      dropable: false
+      saveondeath: true
+      fullset: "farm"
+      effects:
+        - effect: "SPEED"
+          level: 1
+        - effect: "INCREASE_DAMAGE"
+          level: 2
+    extraAttributes:
+      id: "unique_leggings_id"
+    effetfullset:
+      - effect: "SPEED"
+        level: 10
+      - effect: "INCREASE_DAMAGE"
+        level: 11
+
+  bottes:
+    name: "&6Epic Bottes"
+    material: "DIAMOND_BOOTS"
+    lore:
+      - "&7Items Custom de {owner}."
+      - "&7Des Bottes Epic."
+      - "&7Obtenue le {date}."
+    enchantments:
+      DAMAGE_ALL: 5
+    unbreakable: true
+    nbt:
+      customname: "bottes"
+      drophead: true
+      dropable: false
+      saveondeath: true
+      fullset: "farm"
+      effects:
+        - effect: "SPEED"
+          level: 1
+        - effect: "INCREASE_DAMAGE"
+          level: 2
+    extraAttributes:
+      id: "unique_boots_id"
+    effetfullset:
+      - effect: "SPEED"
+        level: 10
+      - effect: "INCREASE_DAMAGE"
+        level: 11
+

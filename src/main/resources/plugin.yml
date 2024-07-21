@@ -1,0 +1,15 @@
+name: ArkaItems
+version: '${project.version}'
+main: org.lulunoel2016.arkaitems.ArkaItems
+api-version: '1.18'
+description: A plugin to create custom items from config.
+depend: [NBTAPI]
+commands:
+  givecustomitem:
+    description: "Give a custom item to a player"
+    usage: "/givecustomitem <item> [pseudo]"
+    permission: "customitem.give"
+permissions:
+  customitem.give:
+    description: "Allows the player to give custom items"
+    default: op
